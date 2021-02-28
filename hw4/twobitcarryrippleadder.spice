@@ -1,0 +1,263 @@
+* SPICE3 file created from finishim.ext - technology: scmos
+
+M1000 Vdd a a_n19_6# w_n19_3# pmos w=3u l=2u
++  ad=404p pd=320u as=41p ps=38u
+M1001 a_n4_6# a Vdd w_n19_3# pmos w=3u l=2u
++  ad=6p pd=10u as=0p ps=0u
+M1002 a_0_n23# b a_n4_6# w_n19_3# pmos w=3u l=2u
++  ad=22p pd=20u as=0p ps=0u
+M1003 a_n19_6# cin a_0_n23# w_n19_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1004 Vdd b a_n19_6# w_n19_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1005 a_68_6# a a_48_6# w_n19_3# pmos w=3u l=2u
++  ad=54p pd=36u as=85p ps=58u
+M1006 a_24_6# b Vdd w_n19_3# pmos w=3u l=2u
++  ad=6p pd=10u as=0p ps=0u
+M1007 a_28_6# a a_24_6# w_n19_3# pmos w=3u l=2u
++  ad=15p pd=16u as=0p ps=0u
+M1008 a_35_6# a_33_n25# a_28_6# w_n19_3# pmos w=3u l=2u
++  ad=33p pd=28u as=0p ps=0u
+M1009 a_48_6# a_0_n23# a_35_6# w_n19_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1010 Vdd cin a_48_6# w_n19_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1011 a_68_6# a Vdd w_n19_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1012 Gnd a a_n19_n23# Gnd nmos w=4u l=2u
++  ad=360p pd=260u as=44p ps=38u
+M1013 a_n4_n23# a Gnd Gnd nmos w=4u l=2u
++  ad=8p pd=12u as=0p ps=0u
+M1014 a_0_n23# b a_n4_n23# Gnd nmos w=4u l=2u
++  ad=24p pd=20u as=0p ps=0u
+M1015 a_n19_n23# cin a_0_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1016 Gnd b a_n19_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1017 a_24_n23# b Gnd Gnd nmos w=4u l=2u
++  ad=8p pd=12u as=0p ps=0u
+M1018 a_28_n23# a a_24_n23# Gnd nmos w=4u l=2u
++  ad=20p pd=18u as=0p ps=0u
+M1019 a_35_n23# a_33_n25# a_28_n23# Gnd nmos w=4u l=2u
++  ad=114p pd=58u as=0p ps=0u
+M1020 a_48_n23# a_0_n23# a_35_n23# Gnd nmos w=4u l=2u
++  ad=148p pd=90u as=0p ps=0u
+M1021 Gnd cin a_48_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1022 Vdd b a_68_6# w_n19_3# pmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1023 f a_35_n23# Vdd w_n19_3# pmos w=4u l=2u
++  ad=40p pd=28u as=0p ps=0u
+M1024 a_106_n23# a_0_n23# Vdd w_n19_3# pmos w=4u l=2u
++  ad=36p pd=26u as=0p ps=0u
+M1025 Vdd a1 a_150_6# w_150_3# pmos w=3u l=2u
++  ad=0p pd=0u as=41p ps=38u
+M1026 a_165_6# a1 Vdd w_150_3# pmos w=3u l=2u
++  ad=6p pd=10u as=0p ps=0u
+M1027 a_169_n23# b1 a_165_6# w_150_3# pmos w=3u l=2u
++  ad=22p pd=20u as=0p ps=0u
+M1028 a_150_6# a_106_n23# a_169_n23# w_150_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1029 Vdd b1 a_150_6# w_150_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1030 a_237_6# a1 a_217_6# w_150_3# pmos w=3u l=2u
++  ad=54p pd=36u as=85p ps=58u
+M1031 a_193_6# b1 Vdd w_150_3# pmos w=3u l=2u
++  ad=6p pd=10u as=0p ps=0u
+M1032 a_197_6# a1 a_193_6# w_150_3# pmos w=3u l=2u
++  ad=15p pd=16u as=0p ps=0u
+M1033 a_204_6# a_202_n25# a_197_6# w_150_3# pmos w=3u l=2u
++  ad=33p pd=28u as=0p ps=0u
+M1034 a_217_6# a_169_n23# a_204_6# w_150_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1035 Vdd a_106_n23# a_217_6# w_150_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1036 a_237_6# a1 Vdd w_150_3# pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1037 a_48_n23# a Gnd Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1038 Gnd b a_48_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1039 f a_35_n23# Gnd Gnd nmos w=4u l=2u
++  ad=40p pd=28u as=0p ps=0u
+M1040 a_106_n23# a_0_n23# Gnd Gnd nmos w=4u l=2u
++  ad=40p pd=28u as=0p ps=0u
+M1041 Gnd a1 a_150_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=44p ps=38u
+M1042 a_165_n23# a1 Gnd Gnd nmos w=4u l=2u
++  ad=8p pd=12u as=0p ps=0u
+M1043 a_169_n23# b1 a_165_n23# Gnd nmos w=4u l=2u
++  ad=24p pd=20u as=0p ps=0u
+M1044 a_150_n23# a_106_n23# a_169_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1045 Gnd b1 a_150_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1046 a_193_n23# b1 Gnd Gnd nmos w=4u l=2u
++  ad=8p pd=12u as=0p ps=0u
+M1047 a_197_n23# a1 a_193_n23# Gnd nmos w=4u l=2u
++  ad=20p pd=18u as=0p ps=0u
+M1048 a_204_n23# a_202_n25# a_197_n23# Gnd nmos w=4u l=2u
++  ad=114p pd=58u as=0p ps=0u
+M1049 a_217_n23# a_169_n23# a_204_n23# Gnd nmos w=4u l=2u
++  ad=148p pd=90u as=0p ps=0u
+M1050 Gnd a_106_n23# a_217_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1051 Vdd b1 a_237_6# w_150_3# pmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1052 f1 a_204_n23# Vdd w_150_3# pmos w=4u l=2u
++  ad=40p pd=28u as=0p ps=0u
+M1053 cout1 a_169_n23# Vdd w_150_3# pmos w=4u l=2u
++  ad=36p pd=26u as=0p ps=0u
+M1054 a_217_n23# a1 Gnd Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1055 Gnd b1 a_217_n23# Gnd nmos w=4u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1056 f1 a_204_n23# Gnd Gnd nmos w=4u l=2u
++  ad=40p pd=28u as=0p ps=0u
+M1057 cout1 a_169_n23# Gnd Gnd nmos w=4u l=2u
++  ad=40p pd=28u as=0p ps=0u
+C0 w_n19_3# a_106_n23# 0.6fF
+C1 a_0_n23# a_33_n25# 0.2fF
+C2 w_150_3# f1 0.4fF
+C3 Gnd a_48_n23# 0.6fF
+C4 w_n19_3# a_n19_6# 1.1fF
+C5 a_150_n23# b1 0.2fF
+C6 a_106_n23# b1 0.5fF
+C7 a_0_n23# a_35_n23# 1.0fF
+C8 w_150_3# a_204_n23# 1.4fF
+C9 Vdd cin 3.0fF
+C10 a a_0_n23# 0.4fF
+C11 w_150_3# cout1 0.6fF
+C12 w_n19_3# b 7.2fF
+C13 a_0_n23# f 0.5fF
+C14 cin a_35_n23# 0.6fF
+C15 a_204_n23# m2_208_n9# 0.9fF
+C16 Gnd a_150_n23# 0.6fF
+C17 Vdd a_48_6# 0.6fF
+C18 a cin 0.5fF
+C19 a1 a_169_n23# 0.4fF
+C20 a_106_n23# a_169_n23# 0.4fF
+C21 a_169_n23# a_202_n25# 0.2fF
+C22 b a_n19_n23# 0.2fF
+C23 w_150_3# Vdd 3.2fF
+C24 w_n19_3# a_0_n23# 3.7fF
+C25 cin a_28_6# 0.4fF
+C26 b Gnd 0.7fF
+C27 a_35_n23# m2_39_n9# 0.9fF
+C28 a1 a_204_n23# 0.2fF
+C29 b a_0_n23# 0.5fF
+C30 Gnd b1 0.7fF
+C31 w_n19_3# cin 6.0fF
+C32 a_204_n23# a_106_n23# 0.6fF
+C33 b1 a_169_n23# 0.5fF
+C34 Vdd a_217_6# 0.6fF
+C35 a_n19_n23# Gnd 0.6fF
+C36 b cin 0.5fF
+C37 w_150_3# a1 8.5fF
+C38 Vdd a 0.8fF
+C39 w_150_3# a_106_n23# 6.0fF
+C40 w_150_3# a_202_n25# 1.7fF
+C41 Gnd a_217_n23# 0.6fF
+C42 a a_35_n23# 0.2fF
+C43 Vdd a1 0.8fF
+C44 a_204_n23# b1 0.2fF
+C45 Vdd a_106_n23# 3.6fF
+C46 w_150_3# a_150_6# 1.1fF
+C47 a_197_6# a_106_n23# 0.4fF
+C48 a_106_n23# a_217_6# 0.2fF
+C49 a_0_n23# cin 0.4fF
+C50 w_n19_3# a_33_n25# 1.7fF
+C51 Vdd a_n19_6# 0.6fF
+C52 w_n19_3# Vdd 3.2fF
+C53 f1 a_169_n23# 0.5fF
+C54 Vdd a_150_6# 0.6fF
+C55 w_150_3# b1 7.2fF
+C56 a a_n19_6# 0.2fF
+C57 w_n19_3# a_35_n23# 1.4fF
+C58 a_204_n23# a_169_n23# 1.0fF
+C59 w_n19_3# a 8.5fF
+C60 a1 a_106_n23# 0.5fF
+C61 w_n19_3# f 0.4fF
+C62 b a_35_n23# 0.2fF
+C63 cin a_48_6# 0.2fF
+C64 a1 a_150_6# 0.2fF
+C65 w_150_3# a_169_n23# 3.7fF
+C66 cout1 Gnd 5.4fF
+C67 f1 Gnd 4.1fF
+C68 a_150_n23# Gnd 4.8fF
+C69 a_204_n23# Gnd 12.2fF
+C70 a_202_n25# Gnd 6.2fF
+C71 a_169_n23# Gnd 25.7fF
+C72 b1 Gnd 48.3fF
+C73 a_150_6# Gnd 3.7fF
+C74 a_106_n23# Gnd 36.8fF
+C75 f Gnd 4.1fF
+C76 Gnd Gnd 67.2fF
+C77 a_n19_n23# Gnd 4.8fF
+C78 a_35_n23# Gnd 12.2fF
+C79 a_33_n25# Gnd 6.2fF
+C80 cin Gnd 22.1fF
+C81 a_0_n23# Gnd 25.7fF
+C82 b Gnd 48.3fF
+C83 a_n19_6# Gnd 3.7fF
+C84 a1 Gnd 47.3fF
+C85 a Gnd 47.3fF
+C86 Vdd Gnd 89.1fF
+
+VCC    Vdd     Gnd     DC=2.5
+
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Vin     a     Gnd    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  ) 
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Vi     b     Gnd    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  ) 
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+V     cin     Gnd    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  ) 
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Va     a1     Gnd    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  ) 
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Var     b1     Gnd    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  )
+
+* The following two lines are for TRANSIENT analysis
+*
+
+*     TSTEP TSTOP
+*     ----- -----
+.TRAN 0.1N  12N
+
+
+* The following line is for DC analysis
+
+.DC VIN 0 2.6 0.1
+
+
+* TEMPERATURE and OPTIONS SETTING
+
+.OPTIONS TEMP=25 reltol = 1e-6 
+
+*MODELS
+
+.include tsmc_cmos025
+
+.END
+
+

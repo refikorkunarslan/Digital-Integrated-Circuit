@@ -1,0 +1,298 @@
+* SPICE3 file created from nand2.ext - technology: scmos
+
+M1000 a_904_1405# Y Vdd w_1448_1830# pmos w=0.6u l=0.24u
++  ad=1.008p pd=4.56u as=22.9536p ps=117.36u
+M1001 a_1262_1797# in Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.152p pd=5.76u as=0p ps=0u
+M1002 Vdd clk a_1262_1797# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1003 a_1201_1789# in Vdd w_1185_1799# pmos w=0.6u l=0.24u
++  ad=1.008p pd=4.56u as=0p ps=0u
+M1004 Y a_1262_1797# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.152p pd=5.76u as=0p ps=0u
+M1005 Vdd a_1396_1790# Y Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1006 a_1262_1797# in a_1251_1797# Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0.7776p ps=3.6u
+** SOURCE/DRAIN TIED
+M1007 a_1262_1797# clk a_1262_1797# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1008 a_904_1405# Y Gnd Gnd nmos w=0.36u l=0.24u
++  ad=0.4032p pd=2.88u as=13.2768p ps=56.64u
+M1009 a_1201_1789# in Gnd Gnd nmos w=0.36u l=0.24u
++  ad=0.4032p pd=2.88u as=0p ps=0u
+M1010 Y a_1262_1797# a_1365_1794# Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0.7776p ps=3.6u
+** SOURCE/DRAIN TIED
+M1011 Y a_1396_1790# Y Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1012 a_1263_1705# a_1201_1789# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.224p pd=6u as=0p ps=0u
+M1013 Vdd clk a_1263_1705# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1014 a_1263_1705# a_1201_1789# Gnd Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1015 a_1263_1705# clk a_1263_1705# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1016 a_1396_1790# a_1263_1705# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.152p pd=5.76u as=0p ps=0u
+M1017 Vdd Y a_1396_1790# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1018 a_1396_1790# a_1263_1705# Gnd Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1019 a_1396_1790# Y a_1396_1790# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1020 a_1781_1468# Vdd Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.224p pd=6u as=0p ps=0u
+M1021 a_1256_1465# a_1047_1424# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.152p pd=5.76u as=0p ps=0u
+M1022 Vdd clk a_1256_1465# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1023 a_882_1452# in Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.224p pd=6u as=0p ps=0u
+M1024 Vdd X a_882_1452# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1025 a_1195_1457# a_1047_1424# Vdd w_1179_1467# pmos w=0.6u l=0.24u
++  ad=1.008p pd=4.56u as=0p ps=0u
+M1026 X a_1256_1465# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.152p pd=5.76u as=0p ps=0u
+M1027 Vdd a_1390_1458# X Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1028 a_1256_1465# a_1047_1424# a_1245_1465# Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0.7776p ps=3.6u
+** SOURCE/DRAIN TIED
+M1029 a_1256_1465# clk a_1256_1465# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1030 Vdd Y a_1781_1468# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1031 out a_1781_1468# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=0.5184p pd=3.12u as=0p ps=0u
+M1032 a_1781_1468# Vdd Gnd Gnd nmos w=0.72u l=0.24u
++  ad=3.5424p pd=12.72u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1033 a_1781_1468# Y a_1781_1468# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1034 out a_1781_1468# Gnd Gnd nmos w=0.6u l=0.24u
++  ad=0.648p pd=3.36u as=0p ps=0u
+M1035 a_882_1452# in Gnd Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1036 a_882_1452# X a_882_1452# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1037 a_1195_1457# a_1047_1424# Gnd Gnd nmos w=0.36u l=0.24u
++  ad=0.4032p pd=2.88u as=0p ps=0u
+M1038 X a_1256_1465# a_1359_1462# Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0.7776p ps=3.6u
+** SOURCE/DRAIN TIED
+M1039 X a_1390_1458# X Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1040 a_1047_1424# a_882_1452# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=2.2176p pd=11.04u as=0p ps=0u
+M1041 Vdd a_887_1329# a_1047_1424# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1042 a_1047_1424# a_883_1206# Vdd Vdd pmos w=0.48u l=0.36u
++  ad=0p pd=0u as=0p ps=0u
+M1043 a_1257_1373# a_1195_1457# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.224p pd=6u as=0p ps=0u
+M1044 a_1047_1391# a_882_1452# Gnd Gnd nmos w=0.72u l=0.24u
++  ad=1.728p pd=6.24u as=0p ps=0u
+M1045 a_1069_1391# a_887_1329# a_1047_1391# Gnd nmos w=0.72u l=0.24u
++  ad=2.0736p pd=7.2u as=0p ps=0u
+M1046 a_1047_1424# a_883_1206# a_1069_1391# Gnd nmos w=0.72u l=0.36u
++  ad=2.5056p pd=8.4u as=0p ps=0u
+M1047 Vdd clk a_1257_1373# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1048 a_887_1329# X Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.224p pd=6u as=0p ps=0u
+M1049 Vdd a_904_1405# a_887_1329# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1050 a_1257_1373# a_1195_1457# Gnd Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1051 a_1257_1373# clk a_1257_1373# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1052 a_1390_1458# a_1257_1373# Vdd Vdd pmos w=0.48u l=0.24u
++  ad=1.152p pd=5.76u as=0p ps=0u
+M1053 Vdd X a_1390_1458# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1054 a_887_1329# X Gnd Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1055 a_887_1329# a_904_1405# a_887_1329# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1056 a_1390_1458# a_1257_1373# Gnd Gnd nmos w=0.72u l=0.24u
++  ad=3.6288p pd=12.96u as=0p ps=0u
+** SOURCE/DRAIN TIED
+M1057 a_1390_1458# X a_1390_1458# Gnd nmos w=0.72u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1058 Vdd in a_813_1207# Vdd pmos w=0.6u l=0.24u
++  ad=0p pd=0u as=0.864p ps=4.08u
+M1059 a_883_1206# Vdd Vdd Vdd pmos w=0.48u l=0.24u
++  ad=2.2176p pd=11.04u as=0p ps=0u
+M1060 Vdd a_903_1127# a_883_1206# Vdd pmos w=0.48u l=0.24u
++  ad=0p pd=0u as=0p ps=0u
+M1061 a_883_1206# Y Vdd Vdd pmos w=0.48u l=0.36u
++  ad=0p pd=0u as=0p ps=0u
+M1062 Vdd in Gnd Gnd nmos w=0.6u l=0.24u
++  ad=11.232p pd=69.84u as=0p ps=0u
+M1063 a_883_1173# Vdd Gnd Gnd nmos w=0.72u l=0.24u
++  ad=1.728p pd=6.24u as=0p ps=0u
+M1064 a_905_1173# a_903_1127# a_883_1173# Gnd nmos w=0.72u l=0.24u
++  ad=2.0736p pd=7.2u as=0p ps=0u
+M1065 a_883_1206# Y a_905_1173# Gnd nmos w=0.72u l=0.36u
++  ad=2.5056p pd=8.4u as=0p ps=0u
+M1066 Vdd X a_903_1127# Vdd pmos w=1.08u l=0.36u
++  ad=0p pd=0u as=3.1248p ps=7.92u
+M1067 Gnd X a_903_1127# Gnd nmos w=1.08u l=0.36u
++  ad=0p pd=0u as=3.2544p ps=8.16u
+C0 Vdd a_1047_1424# 0.3fF
+C1 X a_882_1452# 0.0fF
+C2 a_1262_1797# a_1251_1797# 0.0fF
+C3 a_904_1405# a_887_1329# 0.0fF
+C4 a_1195_1457# w_1179_1467# 0.1fF
+C5 Y a_1781_1468# 0.0fF
+C6 clk Gnd 0.0fF
+C7 Gnd a_1256_1465# 0.1fF
+C8 Gnd a_1390_1458# 0.0fF
+C9 Vdd w_1185_1799# 0.1fF
+C10 a_1262_1797# Y 0.0fF
+C11 clk a_1256_1465# 0.0fF
+C12 Gnd X 0.2fF
+C13 Y w_1448_1830# 0.2fF
+C14 Y a_904_1405# 0.2fF
+C15 a_1257_1373# a_1195_1457# 0.0fF
+C16 in Vdd 0.4fF
+C17 clk X 0.0fF
+C18 Gnd a_887_1329# 0.1fF
+C19 Vdd w_1179_1467# 0.1fF
+C20 X a_1256_1465# 0.0fF
+C21 X a_1390_1458# 0.1fF
+C22 Y a_1396_1790# 0.1fF
+C23 clk a_1251_1797# 0.0fF
+C24 Y a_883_1206# 0.0fF
+C25 Vdd a_1781_1468# 0.2fF
+C26 X a_887_1329# 0.0fF
+C27 a_1047_1424# w_1179_1467# 0.4fF
+C28 Y Gnd 0.3fF
+C29 a_1257_1373# Vdd 0.2fF
+C30 a_1262_1797# Vdd 0.2fF
+C31 Vdd w_1448_1830# 0.2fF
+C32 Vdd a_904_1405# 0.4fF
+C33 Gnd a_1195_1457# 0.0fF
+C34 Vdd a_1201_1789# 0.2fF
+C35 in w_1185_1799# 0.4fF
+C36 Vdd a_882_1452# 0.3fF
+C37 Y X 0.1fF
+C38 a_903_1127# a_883_1206# 0.0fF
+C39 Vdd a_1396_1790# 0.2fF
+C40 a_1263_1705# a_1201_1789# 0.0fF
+C41 Vdd a_883_1206# 0.6fF
+C42 Gnd a_903_1127# 0.1fF
+C43 a_1047_1424# a_882_1452# 0.0fF
+C44 Vdd Gnd 0.9fF
+C45 a_1263_1705# a_1396_1790# 0.0fF
+C46 a_1047_1424# a_883_1206# 0.0fF
+C47 clk Vdd 1.0fF
+C48 a_1263_1705# Gnd 0.0fF
+C49 Vdd a_1256_1465# 0.2fF
+C50 Vdd a_1390_1458# 0.2fF
+C51 w_1185_1799# a_1201_1789# 0.1fF
+C52 Gnd a_1047_1424# 0.1fF
+C53 clk a_1263_1705# 0.0fF
+C54 Vdd X 0.9fF
+C55 a_1781_1468# out 0.0fF
+C56 in a_904_1405# 0.0fF
+C57 in a_882_1452# 0.0fF
+C58 Vdd a_887_1329# 0.4fF
+C59 in a_1201_1789# 0.1fF
+C60 Y a_1365_1794# 0.1fF
+C61 Y a_903_1127# 0.0fF
+C62 a_1047_1424# a_887_1329# 0.0fF
+C63 clk a_1245_1465# 0.0fF
+C64 Y Vdd 1.1fF
+C65 in Gnd 0.1fF
+C66 a_1256_1465# a_1245_1465# 0.0fF
+C67 a_904_1405# w_1448_1830# 0.2fF
+C68 Vdd a_1195_1457# 0.2fF
+C69 X a_1359_1462# 0.1fF
+C70 Gnd a_1781_1468# 0.1fF
+C71 in X 0.0fF
+C72 a_1257_1373# Gnd 0.1fF
+C73 Vdd a_903_1127# 0.2fF
+C74 a_1047_1424# a_1195_1457# 0.1fF
+C75 a_904_1405# Gnd 0.0fF
+C76 a_1257_1373# clk 0.0fF
+C77 a_1262_1797# clk 0.0fF
+C78 a_1201_1789# Gnd 0.0fF
+C79 Gnd a_882_1452# 0.0fF
+C80 a_1257_1373# a_1390_1458# 0.0fF
+C81 Vdd a_1263_1705# 0.2fF
+C82 Gnd a_883_1206# 0.2fF
+C83 Gnd a_1396_1790# 0.0fF
+C84 a_903_1127# Gnd 4.4fF
+C85 a_813_1207# Gnd 0.0fF
+C86 a_1257_1373# Gnd 1.6fF
+C87 a_883_1206# Gnd 3.4fF
+C88 a_887_1329# Gnd 1.9fF
+C89 a_1359_1462# Gnd 0.4fF
+C90 out Gnd 0.2fF
+C91 a_1245_1465# Gnd 0.4fF
+C92 a_1195_1457# Gnd 1.2fF
+C93 a_882_1452# Gnd 1.9fF
+C94 a_1390_1458# Gnd 1.8fF
+C95 a_1256_1465# Gnd 1.2fF
+C96 a_1781_1468# Gnd 1.0fF
+C97 a_1047_1424# Gnd 2.3fF
+C98 X Gnd 26.1fF
+C99 a_1263_1705# Gnd 1.6fF
+C100 a_1365_1794# Gnd 0.4fF
+C101 Gnd Gnd 22.3fF
+C102 a_1251_1797# Gnd 0.4fF
+C103 a_1201_1789# Gnd 1.2fF
+C104 a_1396_1790# Gnd 1.8fF
+C105 a_1262_1797# Gnd 1.2fF
+C106 clk Gnd 3.6fF
+C107 in Gnd 10.6fF
+C108 a_904_1405# Gnd 15.4fF
+C109 Y Gnd 18.7fF
+C110 w_1179_1467# Gnd 0.7fF
+C111 w_1448_1830# Gnd 1.2fF
+C112 w_1185_1799# Gnd 0.7fF
+C113 Vdd Gnd 60.9fF
+
+VCC    Vdd     Gnd     DC=2.5
+
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Vin     in     Gnd    PWL(   0   0    30N  0  30.1N 2.5 60N 2.5 60.1N 0  90N 0 90.1N 2.5 120N 2.5  ) 
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Vi     clk     Gnd    Pulse(  -1 1 30N 30N 30N 50N 100N     ) 
+
+
+
+*     TSTEP TSTOP
+*     ----- -----
+.TRAN 5N  120N
+
+
+
+
+
+* TEMPERATURE and OPTIONS SETTING
+
+.OPTIONS TEMP=25 reltol = 1e-6 
+
+*MODELS
+
+.include tsmc_cmos025
+
+.END

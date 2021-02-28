@@ -1,0 +1,82 @@
+* SPICE3 file created from xor2.ext - technology: scmos
+
+M1000 vdd a a_n73_5# vdd pmos w=3u l=2u
++  ad=22p pd=20u as=60p ps=56u
+M1001 a_n73_5# b vdd vdd pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1002 f d a_n73_5# vdd pmos w=3u l=2u
++  ad=22p pd=20u as=0p ps=0u
+M1003 a_n73_5# c f vdd pmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+M1004 a_n66_n16# a gnd Gnd nmos w=3u l=2u
++  ad=18p pd=18u as=38p ps=36u
+M1005 f b a_n66_n16# Gnd nmos w=3u l=2u
++  ad=22p pd=20u as=0p ps=0u
+M1006 a_n50_n16# d f Gnd nmos w=3u l=2u
++  ad=22p pd=20u as=0p ps=0u
+M1007 gnd c a_n50_n16# Gnd nmos w=3u l=2u
++  ad=0p pd=0u as=0p ps=0u
+C0 c vdd 1.4fF
+C1 a_n73_5# a 0.2fF
+C2 a_n73_5# b 0.2fF
+C3 a_n73_5# vdd 6.8fF
+C4 a vdd 1.4fF
+C5 d f 0.2fF
+C6 b vdd 1.4fF
+C7 d vdd 1.4fF
+C8 f c 0.2fF
+C9 f vdd 0.4fF
+C10 gnd gnd 12.2fF
+C11 c gnd 4.8fF
+C12 f gnd 4.8fF
+C13 d gnd 4.8fF
+C14 b gnd 4.8fF
+C15 a gnd 4.8fF
+C16 a_n73_5# gnd 3.0fF
+
+VCC    vdd     gnd     DC=2.5
+
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Vin     a     f    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  ) 
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Vi     b     f    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  ) 
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+V       c     f    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  ) 
+
+* The following two lines are for TRANSIENT analysis
+*
+*Vname +Node -Node Option T1  V1   T2  V2   T3   V3    T4  V4  T5   V5 
+*----- ----- ----- ------ --  --   --  --   ---- --    --  --  ---- -- 
+Vs     d    f    PWL(   0   0    4N  0    4.1N 2.5   8N  2.5 8.1N  0  ) 
+
+*     TSTEP TSTOP
+*     ----- -----
+.TRAN 0.1N  12N
+
+
+* The following line is for DC analysis
+
+.DC VIN 0 2.6 0.1
+
+
+* TEMPERATURE and OPTIONS SETTING
+
+.OPTIONS TEMP=25 reltol = 1e-6 
+
+*MODELS
+
+.include tsmc_cmos025
+
+.END
